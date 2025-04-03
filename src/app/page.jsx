@@ -1,5 +1,7 @@
+import Banner from "./components/Banner";
 import MainContent from "./components/MainContent";
-import Trending from "./components/TrendingPart";
+import Products from "./components/Products";
+import Trending from "./components/TrendingCategories";
 
 
 export default function Home() {
@@ -7,7 +9,8 @@ export default function Home() {
     <div>
       <MainContent />
       <Trending/>
-
+      <Products/>
+      <Banner/>
     </div>
   );
 }
