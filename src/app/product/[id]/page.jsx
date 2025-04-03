@@ -12,7 +12,7 @@ async function getProduct(id) {
     return res.json();
   } catch (error) {
     console.error('Error fetching product:', error);
-    throw error; 
+    throw error; // return the error to be handled later
   }
 }
 
